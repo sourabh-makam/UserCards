@@ -1,0 +1,52 @@
+body{
+  background-image: linear-gradient(to left bottom, #81a96e, #ac995e, #c4886c, #c57f8b, #ab81a7);
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.cardContainer{
+  border: 1px solid black;
+  width: 25rem;
+  margin:10px;
+  height:115px;
+  border-radius:10px;
+  background-image: linear-gradient(to right top, #c6cfde, #a3b7c0, #889f9e, #75857c, #676b5d);
+}
+
+.main-container{
+  display:flex;
+  justify-content:left;
+  align-items:center;
+  overflow:hidden;
+  align-content: center;
+  padding:5px;
+}
+
+.UserDetails{
+  padding:10px;
+}
+
+img{
+  border-radius:50%;
+  width:75px;
+  height:75px;
+  margin-left: 10px  
+}
+
+.fields{
+  font-weight:bold;
+}
+
+.btn{
+  margin-left:10px;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+input{
+  margin:8px;
+}
+
+.user{
+  height:25px;
+}
